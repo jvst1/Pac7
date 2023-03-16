@@ -1,0 +1,18 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/WeatherPrediction/.vs/WeatherPrediction/v17
+/WeatherPrediction/WeatherPrediction.Api/obj
+/WeatherPrediction/WeatherPrediction.Application/bin/Debug/net6.0
+/WeatherPrediction/WeatherPrediction.Application/obj
+/WeatherPrediction/WeatherPrediction.Crosscutting/obj
+/WeatherPrediction/WeatherPrediction.Data/obj
+/WeatherPrediction/WeatherPrediction.Domain/bin/Debug/net6.0
+/WeatherPrediction/WeatherPrediction.Domain/obj
+/WeatherPrediction/WeatherPrediction.Infrastructure/obj
+/WeatherPrediction/WeatherPrediction.Api/bin/Debug/net6.0
+/WeatherPrediction/WeatherPrediction.Crosscutting/bin/Debug/net6.0
+/WeatherPrediction/WeatherPrediction.Data/bin/Debug/net6.0
+/WeatherPrediction/WeatherPrediction.Infrastructure/bin/Debug/net6.0
+/WeatherPrediction/.vs

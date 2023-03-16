@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>20aa28ff-0837-43b0-8c0a-fd8854407129</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherPrediction.Application\WeatherPrediction.Application.csproj" />
+    <ProjectReference Include="..\WeatherPrediction.Crosscutting\WeatherPrediction.Crosscutting.csproj" />
+    <ProjectReference Include="..\WeatherPrediction.Data\WeatherPrediction.Data.csproj" />
+    <ProjectReference Include="..\WeatherPrediction.Domain\WeatherPrediction.Domain.csproj" />
+    <ProjectReference Include="..\WeatherPrediction.Infrastructure\WeatherPrediction.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
