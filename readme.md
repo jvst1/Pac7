@@ -17,6 +17,7 @@ Além disso, o uso de algoritmos de aprendizado de máquina pode contribuir para
 ![Workflow do Produto](https://user-images.githubusercontent.com/88805708/230231100-c450519c-4425-4258-9d30-a8f6b019be88.jpg)
 
 # Diagrama de Arquitetura 
+![workflow](https://user-images.githubusercontent.com/56096297/234419151-b7f8fa1a-0157-4add-869d-dec78f43dfab.png)
 
 ![Diagrama de Arquitetura](https://user-images.githubusercontent.com/88805708/230233867-632a921f-16b4-4b20-a496-409880faef09.jpg)
 
